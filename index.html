@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Туристичний сайт</title>
+    <style>
+        ul {
+            list-style-type: none; /* Забираємо маркери списку */
+            padding: 0;
+            margin: 0;
+            display: flex; /* Ставимо елементи горизонтально */
+            justify-content: center; /* Центруємо меню*/
+            background-color: #e0f7fa; /* Колір фона меню */
+        }
+        li {
+            margin: 0 15px; /* Відступи між елементами меню */
+        }
+        li a {
+            text-decoration: none; /* Убираем подчеркивание */
+            padding: 10px 20px;
+            color: #00695c; /* Цвет текста */
+            background-color: #ffffff; /* Начальный цвет фона */
+            border-radius: 5px; /* Скругленные углы */
+            transition: background-color 0.3s, color 0.3s; /* Плавный переход */
+        }
+        li a:hover {
+            background-color: #2e8b57; /* Фон при наведении */
+            color: #ffffff; /* Цвет текста при наведении */
+        }
+        li a:active {
+            background-color: #1d5b3a; /* Фон при нажатии */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #2e8b57;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #e0f7fa;
+            color: #00695c;
+        }
+        td {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Де краще провести вихідний?</h1>
+    <ul>
+        <li><a href="home">Головна</a></li>
+        <li><a href="about">Про нас</a></li>
+        <li><a href="services">Послуги</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+    </ul>
+
+    <h2>Популярні туристичні напрямки</h2>
+    <table>
+        <tr>
+            <th>Назва місця</th>
+            <th>Країна</th>
+            <th>Короткий опис</th>
+        </tr>
+        <tr>
+            <td>Ейфелева вежа</td>
+            <td>Франція</td>
+            <td>Один з найвідоміших символів Парижа, відкритий для туристів з усього світу.</td>
+        </tr>
+        <tr>
+            <td>Велика Китайська стіна</td>
+            <td>Китай</td>
+            <td>Давня архітектурна споруда, що простягається на тисячі кілометрів через Китай.</td>
+        </tr>
+        <tr>
+            <td>Мачу-Пікчу</td>
+            <td>Перу</td>
+            <td>Інкське місто, заховане високо в горах Анд, популярне місце для мандрівників.</td>
+        </tr>
+        <tr>
+            <td>Колізей</td>
+            <td>Італія</td>
+            <td>Давній римський амфітеатр, що є символом Італії та Римської імперії.</td>
+        </tr>
+    </table>
+
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/1La4QzGeaaQ?si=9mhsQHYov-YX_PEU" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+
+    <img 
+        src="photo.jpg" 
+        alt="Маленька картинка" 
+        title="Маленька картинка" 
+        width="560" 
+        height="315" 
+    /><br>
+</body>
+</html>
